@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="da"> 
+<head>
+    <title>Phan Design</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <!-- Navigationsbar -->
+    <header class="header">
+        <!-- Logo -->
+        <a href="Forside.html" class="logo">PhanDesign</a>
+        <!-- Burgerbar -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="burg" for="side-menu"><span class="burg-line"></span></label>
+        <!-- Faner -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="forside.html">Forside</a></li>
+                <li><a href="ommig.html">Om mig</a></li>
+                <li><a href="mitarbejde.html">Mit arbejde</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Primære sektion -->
+    <main>
+    <!-- Side titel -->
+    <div class="titel">
+        <h1> Kontakt </h1>
+    </div>
+
+    <!-- Kontakt -->
+    <div class="container">
+        <h4>Find mig her</h4>
+        <p>Kunne du være interesseret i et samarbejde, er du mere end velkommen til at kontakte mig.</p>
+        <p>Send mig en besked nedenfor, så vil jeg glæde mig til at høre fra dig.</p>
+    </div>
+    
+    <!-- Kontaktformular -->
+    <div class="kontaktformular container">
+        <form>
+            <label>Fulde navn:</label>
+            <input type="text">
+
+            <label>E-mail adresse:</label>
+            <input type="text">
+
+            <label id="besked">Skriv besked her</label>
+            <textarea> </textarea>
+
+            <input type="submit" value="Send besked">
+        </form>
+    </div>
+
+    <!-- "Profilbillede" og sidste del -->
+    <div class="container">
+        <img src="FBpfp.jpg" alt="Profilbillede til kontaktside" class="rund" id="fbpf">
+        <div >
+            <ul class="venstre blå" id="venstreblå">
+                <li><b>Aimi Phan</b></li>
+                <li><b>Email:</b> <a href="mailto:aimiphan11@gmail.com" class="blå">aimiphan11@gmail.com</a></li>
+                <li><b>Tlf:</b><a href="tel:+4560728655" class="blå"> +45 60 72 86 55</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    </main>
+
+    <!-- "Fodnote" -->
+    <footer>
+        <div id="footer" class="container">
+            <div class="venstre hvid">
+                <ul class="venstretekst">
+                    <li><b>Kontaktinformation</b></li>
+                    <li><b>Aimi Phan</b></li>
+                    <li><b>Email:</b> <a href="mailto:aimiphan11@gmail.com" class="hvid">aimiphan11@gmail.com</a></li>
+                    <li><b>Tlf:</b><a href="tel:+4560728655" class="hvid"> +45 60 72 86 55</a></li>
+                </ul>
+            </div>
+            <div class="højre">
+                <a href="https://www.instagram.com/aimiphan/"><img src="instagram_white.png" alt="Instagram ikon" class="logo"></a>
+            </div>
+            <img src="havet.jpg" alt="Havet" class="footer">
+        </div>
+    </footer>
+</body>
+
+</html>
